@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  /* font-size: 10px; */
+
+  /* 10px / 16px = 0.625 = 62.5% */
+  /* Percentage of user's browser font-size setting */
+  font-size: 62.5%;
+  overflow-x: hidden;
+
+  /* Does NOT work on Safari */
+  /* scroll-behavior: smooth; */
+}
+
+.card {
+  font-family: monospace;
+  display: flex;
+  flex-direction: row;
+  margin: 10rem auto;
+  /* gap: 1rem; */
+  font-size: 1.8rem;
+  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.176);
+  width: 600px;
+  border-radius: 2rem;
+}
+
+@media screen and (max-width: 620px) {
+  .card {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 0;
+  }
+}

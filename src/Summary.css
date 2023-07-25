@@ -1,0 +1,37 @@
+.container--summary {
+  width: 300px;
+  padding: 4rem 5rem;
+  color: hsl(224, 30%, 27%);
+  /* background-color: antiquewhite; */
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+}
+
+.container--summary h3 {
+  font-size: 1.8rem;
+  text-align: left;
+}
+
+.list {
+  list-style: none;
+}
+
+.btn {
+  margin-top: 1rem;
+  width: 100%;
+  border-style: none;
+  padding: 1rem 3rem;
+  border-radius: 20px;
+  color: hsl(221, 100%, 96%);
+  background-color: hsl(224, 30%, 27%);
+  /* transition: all ease-in-out 0.5s 2s; */
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-image: linear-gradient(
+    to top left,
+    hsl(241, 81%, 54%),
+    hsl(252, 100%, 67%)
+  );
+}

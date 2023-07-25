@@ -1,0 +1,59 @@
+.container {
+  /* background-color: hsl(241, 81%, 54%); */
+  background-image: linear-gradient(
+    to top left,
+    hsl(241, 81%, 54%),
+    hsl(252, 100%, 67%)
+  );
+  width: 300px;
+  padding: 4rem 5rem;
+  color: hsl(0, 0%, 100%);
+  border-radius: 2rem;
+}
+
+.summary-heading {
+  font-size: 1.7rem;
+  text-align: center;
+  margin-bottom: 2.5rem;
+  color: hsl(241, 100%, 89%);
+}
+
+.circle {
+  border-radius: 50%;
+  background-image: linear-gradient(
+    to bottom,
+    hsla(256, 72%, 46%, 1),
+    hsla(241, 72%, 46%, 0)
+  );
+  text-align: center;
+  margin: 1.2rem;
+  padding: 4rem 4rem;
+}
+
+.score {
+  font-size: 5rem;
+}
+
+.circle p {
+  font-size: 1.3rem;
+  color: hsla(241, 100%, 89%, 0.819);
+}
+
+.remark h3 {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.remark p {
+  margin-top: 1.5rem;
+  font-size: 1.2rem;
+  text-align: center;
+  color: hsla(241, 100%, 89%, 0.885);
+}
+
+@media screen and (max-width: 620px) {
+  .container {
+    width: 100%;
+  }
+}
