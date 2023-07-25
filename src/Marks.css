@@ -11,3 +11,9 @@
   font-weight: 700;
   margin-left: 3rem;
 }
+
+.full-mark {
+  color: hsla(224, 30%, 27%, 0.604);
+  font-size: 1.4rem;
+  margin-left: 0.5rem;
+}
