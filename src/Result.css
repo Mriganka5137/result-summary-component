@@ -1,14 +1,16 @@
 .container {
   /* background-color: hsl(241, 81%, 54%); */
   background-image: linear-gradient(
-    to top left,
-    hsl(241, 81%, 54%),
-    hsl(252, 100%, 67%)
+    to bottom,
+    hsl(252, 100%, 67%),
+    hsl(241, 81%, 54%)
   );
   width: 300px;
   padding: 4rem 5rem;
   color: hsl(0, 0%, 100%);
   border-radius: 2rem;
+  /* display: flex;
+  flex-direction: column; */
 }
 
 .summary-heading {
@@ -27,33 +29,49 @@
   );
   text-align: center;
   margin: 1.2rem;
-  padding: 4.5rem 4rem;
+  padding: 4rem 4rem;
 }
 
 .score {
-  font-size: 5rem;
+  font-size: 6rem;
+  margin-bottom: -0.5rem;
 }
 
 .circle p {
-  font-size: 1.3rem;
-  color: hsla(241, 100%, 89%, 0.819);
+  font-size: 1.5rem;
+  color: hsla(241, 100%, 89%, 0.68);
+  font-weight: 600;
 }
 
 .remark h3 {
-  font-size: 2rem;
+  font-size: 2.7rem;
   text-align: center;
   margin-top: 2rem;
+  font-weight: 600;
 }
 
 .remark p {
   margin-top: 1.5rem;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
+  font-weight: 600;
   text-align: center;
   color: hsla(241, 100%, 89%, 0.885);
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 641px) {
   .container {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* padding: 5rem 20rem; */
+    align-items: center;
+    border-radius: 0rem 0rem 2rem 2rem;
+  }
+
+  .circle {
+    /* display: inline-block; */
+    padding: 2rem 2rem;
+    /* border: 1px greenyellow solid; */
+    min-width: 15rem;
   }
 }

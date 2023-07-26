@@ -17,3 +17,16 @@
   font-size: 1.4rem;
   margin-left: 0.5rem;
 }
+
+/* .icon {
+  height: 2rem;
+  width: 2rem;
+} */
+
+@media screen and (max-width: 641px) {
+  .list-item {
+    padding: 2rem 4rem;
+    font-size: 1.7rem;
+    margin-bottom: 3rem;
+  }
+}

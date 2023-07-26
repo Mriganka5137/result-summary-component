@@ -1,5 +1,5 @@
 .container--summary {
-  width: 300px;
+  width: 30rem;
   padding: 4rem 5rem;
   color: hsl(224, 30%, 27%);
   /* background-color: antiquewhite; */
@@ -34,4 +34,17 @@
     hsl(241, 81%, 54%),
     hsl(252, 100%, 67%)
   );
+}
+
+@media screen and (max-width: 641px) {
+  .container--summary {
+    padding: 1.5rem 3.5rem;
+    width: 100%;
+  }
+
+  .btn {
+    width: 100%;
+    padding: 2rem 4rem;
+    font-size: 1.7rem;
+  }
 }

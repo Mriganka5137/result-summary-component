@@ -43,7 +43,6 @@ export default function Summary() {
   return (
     <div className="container--summary">
       <h3>Summary</h3>
-
       <ul className="list">
         {data.map((obj) => (
           <Marks
@@ -52,11 +51,11 @@ export default function Summary() {
             marks={obj.score}
             color={obj.color}
             backgroundColor={obj.backgroundColor}
-            key={obj.icon}
+            key={obj.category}
           />
         ))}
       </ul>
-
+      {/* {console.log(data.map((item) => item.icon))} */}
       <button className="btn" type="submit">
         Continue
       </button>

@@ -1,6 +1,4 @@
 import "./Marks.css";
-import { ReactSVG } from "react";
-
 export default function Marks({ title, icon, marks, color, backgroundColor }) {
   const style = {
     color: color,
@@ -13,7 +11,7 @@ export default function Marks({ title, icon, marks, color, backgroundColor }) {
   return (
     <li className="list-item" style={backgroundStyle}>
       <div>
-        <img src={icon} alt="" srcset={icon} />
+        <img className="icon" src={icon} alt="" />
         <span style={style}>{title} </span>
       </div>
       <div>

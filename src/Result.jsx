@@ -10,7 +10,7 @@ export default function Result() {
       <div className="remark">
         <h3>Great</h3>
         <p>
-          You scored higher than 65% of the people who have taken these tests
+          You scored higher than 65% of the people who have taken these tests.
         </p>
       </div>
     </div>
