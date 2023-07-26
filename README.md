@@ -24,7 +24,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution](https://github.com/Mriganka5137/result-summary-component))
-- Live Site URL: [Live]((https://mmg-frontend-mentor-p1.netlify.app/))
+- Live Site URL: [Live](https://mmg-frontend-mentor-p1.netlify.app)
 
 ## My process
 
@@ -38,8 +38,8 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor -([Mriganka5137](https://www.frontendmentor.io/profile/Mriganka5137))
-- Twitter - [@_Mriganka_]((https://twitter.com/_Mriganka_)https://twitter.com/_Mriganka_)
+- Frontend Mentor -[Mriganka5137](https://www.frontendmentor.io/profile/Mriganka5137)
+- Twitter - [@_Mriganka_](https://twitter.com/_Mriganka_)
 
 
 
